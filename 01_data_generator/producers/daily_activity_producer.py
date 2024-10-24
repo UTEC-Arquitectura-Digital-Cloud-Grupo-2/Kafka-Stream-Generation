@@ -8,7 +8,7 @@ import os
 logging.basicConfig(level=logging.INFO)
 
 bootstrap_servers = "localhost:9092"
-topic_name = "daily-activity"
+topic_name = "activity_every_day"
 
 # Create a Kafka producer
 producer = KafkaProducer(
